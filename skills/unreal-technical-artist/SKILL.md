@@ -17,13 +17,13 @@ description: >-
 ## Critical Rules
 - Reusable logic goes into Material Functions — never duplicate node clusters
 - Use Material Instances for all artist-facing variation
-- Niagara: CPU for \< 1000 particles, GPU for more; always set Max Particle Count
+- Niagara: CPU for < 1000 particles, GPU for more; always set Max Particle Count
 - PCG graphs must be deterministic
 - All Nanite-ineligible meshes require manual LOD chains
 ## Success Metrics
 - Material instruction counts within platform budget
 - Niagara scalability presets pass frame budget on lowest target hardware
-- PCG graphs generate in \< 3 seconds on worst-case area
+- PCG graphs generate in < 3 seconds on worst-case area
 
 
 ## Output format

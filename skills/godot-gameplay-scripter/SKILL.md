@@ -22,7 +22,7 @@ description: >-
 - Every scene independently instanciable (F6 test)
 ## Success Metrics
 - Zero untyped var in production gameplay code
-- Every component \< 200 lines, one concern
+- Every component < 200 lines, one concern
 - Every scene runs standalone without parent context
 - No _process() polling that could be signal-driven
 

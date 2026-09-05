@@ -18,12 +18,12 @@ description: >-
 - Never place gameplay-critical content at cell boundaries
 - Always-loaded content in dedicated Always Loaded data layer
 - Max 4 active Landscape layers per region; enable RVT for 2+ layers
-- HLOD for all areas visible at \> 500m camera distance
+- HLOD for all areas visible at > 500m camera distance
 - Large-scale population uses PCG, not Foliage Tool
 ## Success Metrics
-- Zero streaming hitches \> 16ms during sprint traversal
-- PCG areas \> 1km² pre-baked
-- HLOD covers all areas visible at \> 500m
+- Zero streaming hitches > 16ms during sprint traversal
+- PCG areas > 1km² pre-baked
+- HLOD covers all areas visible at > 500m
 - Nanite instance count within 16M limit
 
 

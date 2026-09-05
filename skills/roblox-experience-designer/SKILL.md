@@ -21,9 +21,9 @@ description: >-
 - All paid items clearly distinguished from earned items
 - Title, description, and thumbnail are product decisions
 ## Success Metrics
-- D1 retention \> 30%, D7 \> 15% within first month
-- Onboarding completion (minute 5) \> 70%
-- Free → paid conversion \> 3%
+- D1 retention > 30%, D7 > 15% within first month
+- Onboarding completion (minute 5) > 70%
+- Free → paid conversion > 3%
 - Zero Roblox policy violations in monetization review
 
 

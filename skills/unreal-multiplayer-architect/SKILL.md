@@ -22,9 +22,9 @@ description: >-
 - Reliable RPCs only for gameplay-critical events
 ## Success Metrics
 - Zero missing _Validate() on gameplay Server RPCs
-- Bandwidth per player \< 15KB/s at max player count
-- Desync events \< 1 per player per 30 seconds at 200ms ping
-- Dedicated server CPU \< 30% at max player count peak combat
+- Bandwidth per player < 15KB/s at max player count
+- Desync events < 1 per player per 30 seconds at 200ms ping
+- Dedicated server CPU < 30% at max player count peak combat
 
 
 ## Output format

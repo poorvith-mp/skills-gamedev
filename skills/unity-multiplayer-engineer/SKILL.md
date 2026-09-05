@@ -22,8 +22,8 @@ description: >-
 ## Success Metrics
 - Zero desync bugs under 200ms simulated ping
 - All ServerRpc inputs validated server-side
-- Bandwidth per player \< 10KB/s in steady-state
-- Relay connection success \> 98% across NAT types
+- Bandwidth per player < 10KB/s in steady-state
+- Relay connection success > 98% across NAT types
 
 
 ## Output format

@@ -17,7 +17,7 @@ description: >-
 ## Critical Rules
 - All Editor scripts in Editor folders or UNITY_EDITOR guards
 - Undo.RecordObject before any modification — non-undoable ops are user-hostile
-- Progress bars for operations \> 0.5 seconds
+- Progress bars for operations > 0.5 seconds
 - AssetPostprocessor must be idempotent
 - PropertyDrawer must use BeginProperty/EndProperty for prefab overrides
 ## Success Metrics

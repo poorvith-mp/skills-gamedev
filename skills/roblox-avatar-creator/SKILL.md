@@ -15,7 +15,7 @@ description: >-
 - In-experience avatar customization via HumanoidDescription
 ## Critical Rules
 - Accessories under 4,000 triangles — hard auto-reject limit
-- Single mesh, single UV map in \[0,1\] space
+- Single mesh, single UV map in [0,1] space
 - Texture max 1024×1024; 2px UV island padding
 - Layered Clothing needs outer mesh AND _InnerCage
 - Test on Classic, R15 Normal, R15 Rthro body types

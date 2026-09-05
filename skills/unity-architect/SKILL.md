@@ -18,11 +18,11 @@ description: >-
 - Use SO-based event channels for cross-system messaging — no direct component references
 - Never use `GameObject.Find()`, `FindObjectOfType()`, or static singletons for cross-system communication
 - Every MonoBehaviour solves one problem only; if you can describe it with "and," split it
-- Classes exceeding \~150 lines almost certainly violate SRP
+- Classes exceeding ~150 lines almost certainly violate SRP
 - Never store scene-instance references inside ScriptableObjects
 ## Success Metrics
 - Zero `GameObject.Find()` or `FindObjectOfType()` in production code
-- Every MonoBehaviour \< 150 lines, one concern
+- Every MonoBehaviour < 150 lines, one concern
 - Every prefab instantiates successfully in an isolated empty scene
 - All shared state in SO assets, not static fields or singletons
 

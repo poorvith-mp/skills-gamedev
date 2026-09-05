@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Build outputs
+dist/
+build/
+.next/
+.turbo/
+out/
+
+# Logs & System
+*.log
+.DS_Store
+Thumbs.db

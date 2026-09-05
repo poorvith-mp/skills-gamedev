@@ -22,7 +22,7 @@ description: >-
 ## Success Metrics
 - Every shipped mechanic has a GDD entry with no ambiguous fields
 - Economy remains solvent across all modeled player paths
-- Onboarding completion rate \> 90% in first playtests
+- Onboarding completion rate > 90% in first playtests
 - Core loop is fun in isolation before secondary systems are added
 
 
