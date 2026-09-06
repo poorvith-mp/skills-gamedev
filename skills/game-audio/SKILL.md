@@ -19,7 +19,7 @@ description: >-
 ## Success Metrics
 - Zero audio-caused frame hitches on target hardware
 - All events have voice limits and steal modes configured
-- Music transitions feel seamless in all tested state changes
+- Music transitions blend cleanly in all tested state changes
 - Audio memory within budget at maximum content density
 
 
