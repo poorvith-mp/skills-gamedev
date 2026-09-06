@@ -1,0 +1,7 @@
+should_fire:
+  - "help with anti cheat"
+  - "enforce server authority, validate client input, and defend against speed hacks, memory editing, packet replay and economy exploits."
+  - "run anti-cheat workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

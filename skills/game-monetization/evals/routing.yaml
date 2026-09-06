@@ -1,0 +1,7 @@
+should_fire:
+  - "help with game monetization"
+  - "design free-to-play economies, battle passes and cosmetic shops with anti-predatory guardrails."
+  - "run game-monetization workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

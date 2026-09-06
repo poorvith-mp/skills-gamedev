@@ -1,0 +1,7 @@
+should_fire:
+  - "help with blender animation"
+  - "rig, skin and animate characters and props, and export clean animation sets to an engine."
+  - "run blender-animation workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

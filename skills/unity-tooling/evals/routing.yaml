@@ -1,0 +1,7 @@
+should_fire:
+  - "help with unity tooling"
+  - "build editor tooling"
+  - "run unity-tooling workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

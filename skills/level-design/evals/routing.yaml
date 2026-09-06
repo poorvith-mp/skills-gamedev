@@ -1,0 +1,7 @@
+should_fire:
+  - "help with level design"
+  - "design layout, pacing, encounter placement and environmental narrative."
+  - "run level-design workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

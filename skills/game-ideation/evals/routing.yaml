@@ -1,0 +1,7 @@
+should_fire:
+  - "help with game ideation"
+  - "generate and pressure-test concepts"
+  - "run game-ideation workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

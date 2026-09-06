@@ -1,0 +1,7 @@
+should_fire:
+  - "help with unity shaders"
+  - "author materials and vfx with shader graph, hlsl and urp/hdrp custom passes."
+  - "run unity-shaders workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

@@ -1,9 +1,9 @@
 # skills-gamedev
 
-Game Dev skills collection for Claude Code, Cursor, Codex, Gemini CLI, and `npx skills` — part of [Skillary](https://github.com/poorvith-mp/skillary) by [Poorvith M P](https://github.com/poorvith-mp).
+Game Development skills collection for Claude Code, Cursor, Codex, Gemini CLI, and `npx skills` — part of [Skillary](https://github.com/poorvith-mp/skillary) by [Poorvith M P](https://github.com/poorvith-mp).
 
-- **Version**: `v3.0.0`
-- **Total Skills**: `22`
+- **Version**: `v4.0.0`
+- **Total Skills**: `26`
 - **License**: MIT
 - **Hub Repository**: [poorvith-mp/skillary](https://github.com/poorvith-mp/skillary)
 
@@ -19,42 +19,69 @@ Or install individual skills directly:
 npx skills add poorvith-mp/skills-gamedev --skill <skill-id>
 ```
 
-For Claude Code plugin marketplace:
-```bash
-/plugin install poorvith-mp/gamedev
-```
-
 ## Skills in this Collection
+
+### Plan
 
 | Skill ID | Title | Description |
 |:---------|:------|:------------|
-| `blender-add-on-engineer` | [Blender Add-on Engineer](skills/blender-add-on-engineer/SKILL.md) | >- |
-| `game-audio-engineer` | [Game Audio Engineer](skills/game-audio-engineer/SKILL.md) | >- |
-| `game-designer` | [Game Designer](skills/game-designer/SKILL.md) | >- |
-| `game-monetization-designer` | [Game Monetization Designer](skills/game-monetization-designer/SKILL.md) | >- |
-| `godot-gameplay-scripter` | [Godot Gameplay Scripter](skills/godot-gameplay-scripter/SKILL.md) | >- |
-| `godot-multiplayer-engineer` | [Godot Multiplayer Engineer](skills/godot-multiplayer-engineer/SKILL.md) | >- |
-| `godot-shader-developer` | [Godot Shader Developer](skills/godot-shader-developer/SKILL.md) | >- |
-| `level-designer` | [Level Designer](skills/level-designer/SKILL.md) | >- |
-| `narrative-designer` | [Narrative Designer](skills/narrative-designer/SKILL.md) | >- |
-| `playtest-feedback-analyzer` | [Playtest Feedback Analyzer](skills/playtest-feedback-analyzer/SKILL.md) | >- |
-| `roblox-avatar-creator` | [Roblox Avatar Creator](skills/roblox-avatar-creator/SKILL.md) | >- |
-| `roblox-experience-designer` | [Roblox Experience Designer](skills/roblox-experience-designer/SKILL.md) | >- |
-| `roblox-systems-scripter` | [Roblox Systems Scripter](skills/roblox-systems-scripter/SKILL.md) | >- |
-| `technical-artist` | [Technical Artist](skills/technical-artist/SKILL.md) | >- |
-| `unity-architect` | [Unity Architect](skills/unity-architect/SKILL.md) | >- |
-| `unity-editor-tool-developer` | [Unity Editor Tool Developer](skills/unity-editor-tool-developer/SKILL.md) | >- |
-| `unity-multiplayer-engineer` | [Unity Multiplayer Engineer](skills/unity-multiplayer-engineer/SKILL.md) | >- |
-| `unity-shader-graph-artist` | [Unity Shader Graph Artist](skills/unity-shader-graph-artist/SKILL.md) | >- |
-| `unreal-multiplayer-architect` | [Unreal Multiplayer Architect](skills/unreal-multiplayer-architect/SKILL.md) | >- |
-| `unreal-systems-engineer` | [Unreal Systems Engineer](skills/unreal-systems-engineer/SKILL.md) | >- |
-| `unreal-technical-artist` | [Unreal Technical Artist](skills/unreal-technical-artist/SKILL.md) | >- |
-| `unreal-world-builder` | [Unreal World Builder](skills/unreal-world-builder/SKILL.md) | >- |
+| `game-ideation` | [Game Ideation](skills/game-ideation/SKILL.md) | Generate and pressure-test concepts: core loop, hook, fantasy, and the paper prototype that proves it. |
+| `production-planning` | [Production Planning](skills/production-planning/SKILL.md) | Plan the build: vertical slice, milestones, scope cuts, and what actually ships in the first playable. |
 
-## Author & Maintenance
+### Craft
 
-Authored and curated by **[Poorvith M P](https://github.com/poorvith-mp)** as part of the [Skillary](https://github.com/poorvith-mp/skillary) modular skills architecture.
+| Skill ID | Title | Description |
+|:---------|:------|:------------|
+| `game-ai` | [Game AI](skills/game-ai/SKILL.md) | Design NPC behaviour: behaviour trees, state machines, pathfinding, perception and difficulty tuning. |
+| `game-design` | [Game Design](skills/game-design/SKILL.md) | Design systems and mechanics: GDD authorship, gameplay loops, economy balancing and player psychology. |
+| `game-monetization` | [Game Monetization](skills/game-monetization/SKILL.md) | Design free-to-play economies, battle passes and cosmetic shops with anti-predatory guardrails. |
+| `game-ui` | [Game UI](skills/game-ui/SKILL.md) | Design HUDs, menus and diegetic interfaces with controller navigation and readability at TV distance. |
+| `level-design` | [Level Design](skills/level-design/SKILL.md) | Design layout, pacing, encounter placement and environmental narrative. |
+| `narrative-design` | [Narrative Design](skills/narrative-design/SKILL.md) | Design branching dialogue, lore architecture and environmental storytelling aligned to the GDD. |
+| `playtesting` | [Playtesting](skills/playtesting/SKILL.md) | Structure playtest sessions and sort responses into UX friction, difficulty calibration and feature signal. |
+
+### Art and audio
+
+| Skill ID | Title | Description |
+|:---------|:------|:------------|
+| `game-audio` | [Game Audio](skills/game-audio/SKILL.md) | Integrate FMOD and Wwise, build adaptive music systems, spatial audio and audio performance budgets. |
+| `tech-art` | [Tech Art](skills/tech-art/SKILL.md) | Own the art-to-engine pipeline: shaders, VFX, LOD chains and cross-engine asset standards. |
+
+### 3D assets
+
+| Skill ID | Title | Description |
+|:---------|:------|:------------|
+| `blender-animation` | [Blender Animation](skills/blender-animation/SKILL.md) | Rig, skin and animate characters and props, and export clean animation sets to an engine. |
+| `blender-modeling` | [Blender Modeling](skills/blender-modeling/SKILL.md) | Model, retopologise, UV unwrap and bake game-ready assets with correct scale, pivots and polycount. |
+| `blender-tooling` | [Blender Tooling](skills/blender-tooling/SKILL.md) | Build Blender Python add-ons, asset validators, exporters and pipeline automation. |
+
+### Unity
+
+| Skill ID | Title | Description |
+|:---------|:------|:------------|
+| `unity-architecture` | [Unity Architecture](skills/unity-architecture/SKILL.md) | Structure Unity projects with ScriptableObjects, decoupled systems and single-responsibility components. |
+| `unity-multiplayer` | [Unity Multiplayer](skills/unity-multiplayer/SKILL.md) | Build Netcode for GameObjects, Relay and Lobby, client-server authority and lag compensation. |
+| `unity-shaders` | [Unity Shaders](skills/unity-shaders/SKILL.md) | Author materials and VFX with Shader Graph, HLSL and URP/HDRP custom passes. |
+| `unity-tooling` | [Unity Tooling](skills/unity-tooling/SKILL.md) | Build editor tooling: EditorWindows, PropertyDrawers, AssetPostprocessors and ScriptedImporters. |
+
+### Unreal
+
+| Skill ID | Title | Description |
+|:---------|:------|:------------|
+| `unreal-multiplayer` | [Unreal Multiplayer](skills/unreal-multiplayer/SKILL.md) | Build Actor replication, GameMode/GameState architecture and server-authoritative gameplay. |
+| `unreal-systems` | [Unreal Systems](skills/unreal-systems/SKILL.md) | Work the C++/Blueprint continuum with Nanite, Lumen and the Gameplay Ability System. |
+| `unreal-tech-art` | [Unreal Tech Art](skills/unreal-tech-art/SKILL.md) | Own the UE5 visual pipeline: Material Editor, Niagara VFX and Procedural Content Generation. |
+| `unreal-worlds` | [Unreal Worlds](skills/unreal-worlds/SKILL.md) | Build open worlds with World Partition, Landscape, procedural foliage, HLOD and level streaming. |
+
+### Engineering
+
+| Skill ID | Title | Description |
+|:---------|:------|:------------|
+| `anti-cheat` | [Anti Cheat](skills/anti-cheat/SKILL.md) | Enforce server authority, validate client input, and defend against speed hacks, memory editing, packet replay and economy exploits. |
+| `game-build-pipeline` | [Game Build Pipeline](skills/game-build-pipeline/SKILL.md) | Automate platform builds, asset cooking, console certification prep, and Steam or itch.io depot publishing. |
+| `game-performance` | [Game Performance](skills/game-performance/SKILL.md) | Hit frame budget: draw calls, batching, GC spikes, LOD strategy and in-engine profiling. |
+| `game-version-control` | [Game Version Control](skills/game-version-control/SKILL.md) | Set up Git LFS for binary assets, handle unmergeable scene and prefab conflicts, and know when Perforce beats Git. |
 
 ## License
 
-MIT License. See [LICENSE](LICENSE) for details.
+MIT © [Poorvith M P](https://github.com/poorvith-mp)

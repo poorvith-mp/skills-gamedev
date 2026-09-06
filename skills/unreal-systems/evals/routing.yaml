@@ -1,0 +1,7 @@
+should_fire:
+  - "help with unreal systems"
+  - "work the c++/blueprint continuum with nanite, lumen and the gameplay ability system."
+  - "run unreal-systems workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

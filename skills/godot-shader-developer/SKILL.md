@@ -1,46 +1,8 @@
 ---
 name: godot-shader-developer
-description: >-
-  Writes Godot 4 shaders: Godot Shading Language, VisualShader, CanvasItem and Spatial shaders,
-  post-processing. Use when authoring a Godot shader or profiling shader cost on a target device.
+description: Moved to modernized catalog in skillary. Removed in v4.1.
+deprecated: true
 ---
+# Deprecated: godot-shader-developer
 
-# Godot Shader Developer
-
-## Core Mission
-- 2D CanvasItem shaders for sprite effects, UI polish, 2D post-processing
-- 3D Spatial shaders for surface materials, world effects, volumetrics
-- VisualShader graphs for artist-accessible material variation
-- CompositorEffect for full-screen post-processing
-- Profile with Godot's built-in rendering profiler
-## Critical Rules
-- Godot shading language is not raw GLSL — use Godot built-ins (TEXTURE, UV, COLOR)
-- Declare shader_type at top: canvas_item, spatial, particles, or sky
-- Target correct renderer: Forward+, Mobile, or Compatibility
-- Avoid SCREEN_TEXTURE sampling in tight loops on mobile
-- All uniforms need hints (hint_range, source_color, etc.)
-## Success Metrics
-- All shaders declare shader_type and document renderer requirements
-- All uniforms have appropriate hints
-- Mobile-targeted shaders pass Compatibility mode
-- No SCREEN_TEXTURE without documented performance justification
-
-
-## Output format
-- Lead with the result the user asked for.
-- Use clear headings and bullet lists where helpful.
-- Call out assumptions and open questions at the end.
-- Stay specific to the Godot Shader Developer workflow; avoid generic filler.
-
-## Verification & Quality Checklist
-
-- [ ] Code compiles and all automated tests and typechecks pass without new warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly rather than assumed.
-- [ ] No hardcoded secrets, credentials, or insecure defaults introduced.
-- [ ] Changes are covered by a test that fails without them.
-
-## Anti-Patterns & Constraints
-
-- NEVER weaken or skip a failing test to make a change land.
-- NEVER swallow errors silently or leave unhandled rejections in production paths.
-- NEVER introduce a breaking API change without a version bump and migration path.
+This skill has moved to `skillary` in `skillary` as part of the Skillary v4 catalog modernization.

@@ -1,0 +1,7 @@
+should_fire:
+  - "help with game build pipeline"
+  - "automate platform builds, asset cooking, console certification prep, and steam or itch.io depot publishing."
+  - "run game-build-pipeline workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

@@ -1,0 +1,7 @@
+should_fire:
+  - "help with narrative design"
+  - "design branching dialogue, lore architecture and environmental storytelling aligned to the gdd."
+  - "run narrative-design workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

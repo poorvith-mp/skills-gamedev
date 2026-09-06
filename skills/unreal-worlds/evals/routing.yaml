@@ -1,0 +1,7 @@
+should_fire:
+  - "help with unreal worlds"
+  - "build open worlds with world partition, landscape, procedural foliage, hlod and level streaming."
+  - "run unreal-worlds workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

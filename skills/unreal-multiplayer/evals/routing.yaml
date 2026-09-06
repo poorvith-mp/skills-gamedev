@@ -1,0 +1,7 @@
+should_fire:
+  - "help with unreal multiplayer"
+  - "build actor replication, gamemode/gamestate architecture and server-authoritative gameplay."
+  - "run unreal-multiplayer workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

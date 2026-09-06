@@ -1,0 +1,7 @@
+should_fire:
+  - "help with game audio"
+  - "integrate fmod and wwise, build adaptive music systems, spatial audio and audio performance budgets."
+  - "run game-audio workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

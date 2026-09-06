@@ -1,0 +1,7 @@
+should_fire:
+  - "help with game design"
+  - "design systems and mechanics"
+  - "run game-design workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

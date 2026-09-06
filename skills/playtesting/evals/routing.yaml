@@ -1,0 +1,7 @@
+should_fire:
+  - "help with playtesting"
+  - "structure playtest sessions and sort responses into ux friction, difficulty calibration and feature signal."
+  - "run playtesting workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

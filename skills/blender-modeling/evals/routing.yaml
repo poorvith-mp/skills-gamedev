@@ -1,0 +1,7 @@
+should_fire:
+  - "help with blender modeling"
+  - "model, retopologise, uv unwrap and bake game-ready assets with correct scale, pivots and polycount."
+  - "run blender-modeling workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

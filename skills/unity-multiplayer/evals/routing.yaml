@@ -1,0 +1,7 @@
+should_fire:
+  - "help with unity multiplayer"
+  - "build netcode for gameobjects, relay and lobby, client-server authority and lag compensation."
+  - "run unity-multiplayer workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

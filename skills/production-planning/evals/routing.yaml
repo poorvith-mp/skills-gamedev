@@ -1,0 +1,7 @@
+should_fire:
+  - "help with production planning"
+  - "plan the build"
+  - "run production-planning workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

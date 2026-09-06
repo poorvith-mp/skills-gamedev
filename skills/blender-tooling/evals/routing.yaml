@@ -1,0 +1,7 @@
+should_fire:
+  - "help with blender tooling"
+  - "build blender python add-ons, asset validators, exporters and pipeline automation."
+  - "run blender-tooling workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

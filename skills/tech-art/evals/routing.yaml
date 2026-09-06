@@ -1,0 +1,7 @@
+should_fire:
+  - "help with tech art"
+  - "own the art-to-engine pipeline"
+  - "run tech-art workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

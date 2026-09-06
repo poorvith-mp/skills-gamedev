@@ -1,0 +1,7 @@
+should_fire:
+  - "help with game ai"
+  - "design npc behaviour"
+  - "run game-ai workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

@@ -1,0 +1,7 @@
+should_fire:
+  - "help with game ui"
+  - "design huds, menus and diegetic interfaces with controller navigation and readability at tv distance."
+  - "run game-ui workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

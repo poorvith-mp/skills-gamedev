@@ -1,0 +1,7 @@
+should_fire:
+  - "help with game performance"
+  - "hit frame budget"
+  - "run game-performance workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

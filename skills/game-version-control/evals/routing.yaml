@@ -1,0 +1,7 @@
+should_fire:
+  - "help with game version control"
+  - "set up git lfs for binary assets, handle unmergeable scene and prefab conflicts, and know when perforce beats git."
+  - "run game-version-control workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

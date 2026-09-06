@@ -1,0 +1,7 @@
+should_fire:
+  - "help with unreal tech art"
+  - "own the ue5 visual pipeline"
+  - "run unreal-tech-art workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry
