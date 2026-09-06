@@ -5,6 +5,7 @@ description: >-
   Design branching dialogue, lore architecture and environmental storytelling aligned to the GDD.
   Use when writing branching dialogue, worldbuilding, or character arcs.
 ---
+
 # Narrative Design
 
 ## Core Mission

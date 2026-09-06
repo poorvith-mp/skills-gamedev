@@ -5,6 +5,7 @@ description: >-
   Design layout, pacing, encounter placement and environmental narrative. Use when designing
   encounter spaces, level layouts, or pacing curves.
 ---
+
 # Level Design
 
 ## Core Mission
