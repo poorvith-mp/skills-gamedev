@@ -1,7 +1,16 @@
 should_fire:
-  - "help with unreal multiplayer"
-  - "build actor replication, gamemode/gamestate architecture and server-authoritative gameplay."
-  - "run unreal-multiplayer workflow"
+  - 'implement actor and property replication in Unreal Engine C++ with RepNotify'
+  - 'set up reliable and unreliable Server/Client Remote Procedure Calls (RPCs)'
+  - 'implement custom character movement prediction using CharacterMovementComponent'
+  - 'handle network relevancy, dormancy, and replication frequency optimization'
+  - 'configure dedicated server builds and session matchmaking with Epic Online Services'
+  - 'implement server-authoritative hit registration with rewind lag compensation'
+  - 'replicate complex Gameplay Ability System (GAS) attribute sets across network'
+  - 'debug network desyncs and packet loss artifacts using Network Profiler'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'implement multiplayer networking in Unity with Netcode'
+    expect: 'unity-multiplayer'
+  - prompt: 'develop single-player gameplay abilities in Unreal C++'
+    expect: 'unreal-systems'
+  - prompt: 'implement anti-cheat memory protection and packet verification'
+    expect: 'anti-cheat'

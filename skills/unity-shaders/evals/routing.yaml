@@ -1,7 +1,16 @@
 should_fire:
-  - "help with unity shaders"
-  - "author materials and vfx with shader graph, hlsl and urp/hdrp custom passes."
-  - "run unity-shaders workflow"
+  - 'write a custom stylized water shader in Unity Shader Graph with foam and depth'
+  - 'create an HLSL compute shader for simulating grass wind displacement'
+  - 'build a dissolve effect shader with glowing edges for enemy death animations'
+  - 'author custom lighting models and toon shading in Universal Render Pipeline (URP)'
+  - 'optimize expensive full-screen post-processing shaders for mobile platforms'
+  - 'implement screen-space distortion and refraction for magical shockwaves'
+  - 'create a dynamic snow accumulation shader using world-space normals'
+  - 'profile and fix shader instruction counts and register pressure in Unity'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'create shaders and Niagara particle systems in Unreal Engine'
+    expect: 'unreal-tech-art'
+  - prompt: 'set up 3D rigging and animations in Blender'
+    expect: 'blender-animation'
+  - prompt: 'architect core Unity gameplay systems'
+    expect: 'unity-architecture'

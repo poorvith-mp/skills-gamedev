@@ -1,7 +1,16 @@
 should_fire:
-  - "help with unreal tech art"
-  - "own the ue5 visual pipeline"
-  - "run unreal-tech-art workflow"
+  - 'author complex Master Materials in Unreal with material instances and switch parameters'
+  - 'create an epic magical spell explosion using Unreal''s Niagara visual effects system'
+  - 'optimize Lumen global illumination and Nanite geometry settings for 60 FPS'
+  - 'build dynamic weather material functions that wet surfaces and create puddles'
+  - 'set up GPU particle simulations that collide realistically with scene geometry'
+  - 'troubleshoot shader complexity and overdraw bottlenecks in Unreal View Modes'
+  - 'implement Virtual Texturing and Runtime Virtual Textures (RVT) for landscape blending'
+  - 'create custom post-process materials for stylized cel-shaded outlines'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write shaders in Unity Universal Render Pipeline'
+    expect: 'unity-shaders'
+  - prompt: 'build landscape terrain and open-world biomes in Unreal'
+    expect: 'unreal-worlds'
+  - prompt: 'implement C++ gameplay systems in Unreal'
+    expect: 'unreal-systems'

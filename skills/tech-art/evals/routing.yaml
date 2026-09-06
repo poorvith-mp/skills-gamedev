@@ -1,7 +1,16 @@
 should_fire:
-  - "help with tech art"
-  - "own the art-to-engine pipeline"
-  - "run tech-art workflow"
+  - 'establish polygon budgets, texture memory limits, and draw call standards'
+  - 'build an automated asset export pipeline from DCC tools into game engines'
+  - 'create complex vertex animation shaders for interactive foliage and water'
+  - 'troubleshoot skinning, bone weighting, and retargeting bugs on 3D characters'
+  - 'optimize high-resolution textures using channel packing and texture atlases'
+  - 'bridge the gap between 3D artists and graphics programmers on visual targets'
+  - 'set up dynamic cloth simulation and physics constraints for character clothing'
+  - 'profile and fix expensive overdraw and alpha blending performance issues'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'model 3D meshes and props in Blender from scratch'
+    expect: 'blender-modeling'
+  - prompt: 'write custom HLSL shaders for Unity'
+    expect: 'unity-shaders'
+  - prompt: 'profile CPU and memory bottlenecks across the entire game'
+    expect: 'game-performance'

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with game design"
-  - "design systems and mechanics"
-  - "run game-design workflow"
+  - 'design the combat progression system and ability cooldowns for our RPG'
+  - 'write a comprehensive Game Design Document (GDD) for a survival game'
+  - 'balance damage formulas, weapon stats, and enemy health curves'
+  - 'design the inventory management and crafting mechanics for our game'
+  - 'create a progression tree with meaningful build variety for players'
+  - 'structure the movement physics and jumping feel for a precision platformer'
+  - 'define rules and win conditions for a competitive turn-based strategy game'
+  - 'balance risk-versus-reward mechanics in our extraction shooter loop'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'design the spatial layout, encounter pacing, and floor plan of a level'
+    expect: 'level-design'
+  - prompt: 'write character dialogue, lore, and worldbuilding'
+    expect: 'narrative-design'
+  - prompt: 'implement the game systems in Unreal Engine C++'
+    expect: 'unreal-systems'

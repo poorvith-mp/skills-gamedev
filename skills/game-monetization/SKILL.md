@@ -1,7 +1,9 @@
 ---
 name: game-monetization
+group: Craft
 description: >-
   Design free-to-play economies, battle passes and cosmetic shops with anti-predatory guardrails.
+  Use when designing battle passes, gacha, in-game economies, or IAPs.
 ---
 # Game Monetization
 

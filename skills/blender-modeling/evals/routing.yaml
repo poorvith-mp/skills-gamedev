@@ -1,7 +1,16 @@
 should_fire:
-  - "help with blender modeling"
-  - "model, retopologise, uv unwrap and bake game-ready assets with correct scale, pivots and polycount."
-  - "run blender-modeling workflow"
+  - 'model a low-poly stylized vehicle in Blender ready for a game engine'
+  - 'unwrap clean UV maps with uniform texel density and minimal stretching'
+  - 'bake high-poly normal map details onto an optimized low-poly game mesh'
+  - 'model modular environment kit pieces that snap together on a grid'
+  - 'create a clean hard-surface weapon model with proper topology and edge loops'
+  - 'optimize mesh polycounts by reducing unnecessary edge loops and vertices'
+  - 'prepare and export 3D assets to FBX or glTF with correct scale and pivots'
+  - 'organize material slots and texture atlas assignments in Blender'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'rig and animate character keyframes in Blender'
+    expect: 'blender-animation'
+  - prompt: 'write Python automation scripts for Blender'
+    expect: 'blender-tooling'
+  - prompt: 'build landscape terrain and open-world biomes in Unreal'
+    expect: 'unreal-worlds'

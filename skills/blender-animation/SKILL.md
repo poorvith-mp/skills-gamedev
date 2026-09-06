@@ -1,7 +1,9 @@
 ---
 name: blender-animation
+group: 3D assets
 description: >-
-  Rig, skin and animate characters and props, and export clean animation sets to an engine.
+  Rig, skin and animate characters and props, and export clean animation sets to an engine. Use
+  when rigging skeletons, weight painting, or keyframing animations.
 ---
 # Blender Animation
 

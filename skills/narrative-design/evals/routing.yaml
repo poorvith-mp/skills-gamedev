@@ -1,7 +1,16 @@
 should_fire:
-  - "help with narrative design"
-  - "design branching dialogue, lore architecture and environmental storytelling aligned to the gdd."
-  - "run narrative-design workflow"
+  - 'write branching dialogue trees with player choice and emotional consequences'
+  - 'develop compelling character backstories, motivations, and voice barks'
+  - 'build rich worldbuilding lore and environmental storytelling documents'
+  - 'structure a non-linear narrative questline with multiple endings'
+  - 'write quest logs, item descriptions, and in-game lore collectibles'
+  - 'pace narrative story reveals across a 20-hour campaign progression'
+  - 'integrate player choices into gameplay consequences without exponential branching'
+  - 'write companion relationship arcs and reactive companion commentary'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write a book manuscript or novel chapter'
+    expect: 'book-writing'
+  - prompt: 'write a screenplay for film or television'
+    expect: 'screenwriting'
+  - prompt: 'design core gameplay rules and combat balance curves'
+    expect: 'game-design'

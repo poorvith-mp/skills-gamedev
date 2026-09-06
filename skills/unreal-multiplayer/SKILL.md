@@ -1,7 +1,9 @@
 ---
 name: unreal-multiplayer
+group: Unreal
 description: >-
-  Build Actor replication, GameMode/GameState architecture and server-authoritative gameplay.
+  Build Actor replication, GameMode/GameState architecture and server-authoritative gameplay. Use
+  when building Unreal networking, actor replication, or RPCs.
 ---
 # Unreal Multiplayer
 

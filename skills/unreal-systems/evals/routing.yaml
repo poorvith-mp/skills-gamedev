@@ -1,7 +1,16 @@
 should_fire:
-  - "help with unreal systems"
-  - "work the c++/blueprint continuum with nanite, lumen and the gameplay ability system."
-  - "run unreal-systems workflow"
+  - 'implement gameplay abilities using Unreal''s Gameplay Ability System (GAS)'
+  - 'write performant character movement and combat mechanics in Unreal C++'
+  - 'structure clean communication between C++ base classes and Blueprint children'
+  - 'implement custom Gameplay Tasks and Async Actions for Unreal gameplay'
+  - 'manage memory and garbage collection (UObjects, TWeakObjectPtr) safely in C++'
+  - 'design an inventory and itemization system using PrimaryDataAssets in Unreal'
+  - 'handle save game serialization and async loading with the Asset Manager'
+  - 'optimize Blueprint execution overhead by nativizing critical gameplay loops to C++'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'implement multiplayer replication and network prediction in Unreal'
+    expect: 'unreal-multiplayer'
+  - prompt: 'author Niagara particle effects and materials in Unreal'
+    expect: 'unreal-tech-art'
+  - prompt: 'build open-world landscapes with World Partition in Unreal'
+    expect: 'unreal-worlds'

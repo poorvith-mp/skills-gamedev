@@ -1,7 +1,16 @@
 should_fire:
-  - "help with playtesting"
-  - "structure playtest sessions and sort responses into ux friction, difficulty calibration and feature signal."
-  - "run playtesting workflow"
+  - 'create a playtest questionnaire to capture genuine player confusion points'
+  - 'structure an external blind playtest protocol to observe unfiltered gameplay'
+  - 'define key game telemetry events: player deaths, completion times, and drop-offs'
+  - 'analyze playtester feedback to separate symptoms from underlying design flaws'
+  - 'identify difficulty spikes where over 40% of players quit during chapter 2'
+  - 'run internal focus tests to evaluate whether our core combat feels punchy'
+  - 'synthesize qualitative player feedback into prioritized design actionable fixes'
+  - 'set up automated telemetry dashboards tracking level completion rates'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'run automated regression tests on game engine code'
+    expect: 'test-suite'
+  - prompt: 'conduct customer discovery interviews for B2B software'
+    expect: 'customer-research'
+  - prompt: 'audit game performance and framerate drops'
+    expect: 'game-performance'

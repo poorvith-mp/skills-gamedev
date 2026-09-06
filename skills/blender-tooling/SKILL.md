@@ -1,7 +1,9 @@
 ---
 name: blender-tooling
+group: 3D assets
 description: >-
-  Build Blender Python add-ons, asset validators, exporters and pipeline automation.
+  Build Blender Python add-ons, asset validators, exporters and pipeline automation. Use when
+  writing Python scripts, add-ons, or batch tools for Blender.
 ---
 # Blender Tooling
 

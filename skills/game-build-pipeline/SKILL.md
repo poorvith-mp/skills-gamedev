@@ -1,7 +1,9 @@
 ---
 name: game-build-pipeline
+group: Engineering
 description: >-
-  Automate platform builds, asset cooking, console certification prep, and Steam or itch.io depot publishing.
+  Automate platform builds, asset cooking, console certification prep, and Steam or itch.io depot
+  publishing. Use when automating game builds, cooking, packaging, or Steam uploads.
 ---
 # Game Build Pipeline
 

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with level design"
-  - "design layout, pacing, encounter placement and environmental narrative."
-  - "run level-design workflow"
+  - 'design the layout and encounter pacing for a stealth mission level'
+  - 'create a blockout floor plan for a competitive multiplayer arena'
+  - 'guide player navigation through visual landmarks and lighting cues'
+  - 'pace combat encounters and rest areas across a 45-minute dungeon run'
+  - 'design platforming challenges with teaching, practicing, and twisting phases'
+  - 'balance sightlines, cover, and chokepoints in a first-person shooter map'
+  - 'structure environmental puzzles that reinforce the player''s core abilities'
+  - 'plan the spatial metrics and jump distances for our character controller'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'design the core combat mechanics and character stat progression'
+    expect: 'game-design'
+  - prompt: 'create 3D environmental assets and props in Blender'
+    expect: 'blender-modeling'
+  - prompt: 'build landscape terrain and open-world biomes in Unreal Engine'
+    expect: 'unreal-worlds'

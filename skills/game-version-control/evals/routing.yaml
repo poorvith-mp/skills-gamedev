@@ -1,7 +1,16 @@
 should_fire:
-  - "help with game version control"
-  - "set up git lfs for binary assets, handle unmergeable scene and prefab conflicts, and know when perforce beats git."
-  - "run game-version-control workflow"
+  - 'set up Git LFS (Large File Storage) for tracking multi-gigabyte 3D and audio assets'
+  - 'configure file locking in Git LFS to prevent merge conflicts on binary maps and scenes'
+  - 'set up and manage a Perforce Helix Core server for a game development team'
+  - 'establish Perforce stream structures (main, dev, release) for game updates'
+  - 'how to avoid merge conflicts when two designers edit the same Unreal level file'
+  - 'clean up bloated Git repositories where large textures were committed without LFS'
+  - 'configure workspace mappings and typemap rules in Perforce for Unreal Engine'
+  - 'train artists on seamless check-in, checkout, and locking workflows for game assets'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'resolve text git merge conflicts and rebases in web code'
+    expect: 'git-operations'
+  - prompt: 'automate game packaging and cooking in CI'
+    expect: 'game-build-pipeline'
+  - prompt: 'establish team branching strategy for web software'
+    expect: 'branching-strategy'

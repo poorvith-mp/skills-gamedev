@@ -1,7 +1,16 @@
 should_fire:
-  - "help with unreal worlds"
-  - "build open worlds with world partition, landscape, procedural foliage, hlod and level streaming."
-  - "run unreal-worlds workflow"
+  - 'set up an open-world map using Unreal Engine''s World Partition and Data Layers'
+  - 'sculpt realistic terrain landscapes with layered auto-materials in Unreal'
+  - 'configure PCG (Procedural Content Generation) graphs to populate forests and rocks'
+  - 'optimize streaming levels and memory budgets across a massive open world'
+  - 'place foliage meshes with proper cull distances and Nanite settings'
+  - 'design lighting scenarios balancing directional sun, sky light, and volumetric fog'
+  - 'set up HLOD (Hierarchical Level of Detail) clusters for distant mountain vistas'
+  - 'manage collision complexity and physics proxy meshes on landscape geometry'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'model modular 3D props in Blender'
+    expect: 'blender-modeling'
+  - prompt: 'design level encounter pacing and combat spaces'
+    expect: 'level-design'
+  - prompt: 'author Niagara particle effects and materials'
+    expect: 'unreal-tech-art'

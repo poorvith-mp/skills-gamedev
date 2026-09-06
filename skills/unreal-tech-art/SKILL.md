@@ -1,7 +1,9 @@
 ---
 name: unreal-tech-art
+group: Unreal
 description: >-
-  Own the UE5 visual pipeline: Material Editor, Niagara VFX and Procedural Content Generation.
+  Own the UE5 visual pipeline: Material Editor, Niagara VFX and Procedural Content Generation. Use
+  when creating Unreal materials, Niagara visual effects, or Lumen setups.
 ---
 # Unreal Tech Art
 

@@ -1,7 +1,9 @@
 ---
 name: unity-shaders
+group: Unity
 description: >-
-  Author materials and VFX with Shader Graph, HLSL and URP/HDRP custom passes.
+  Author materials and VFX with Shader Graph, HLSL and URP/HDRP custom passes. Use when authoring
+  URP/HDRP shaders, Shader Graph, or visual effects.
 ---
 # Unity Shaders
 

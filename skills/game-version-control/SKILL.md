@@ -1,7 +1,9 @@
 ---
 name: game-version-control
+group: Engineering
 description: >-
-  Set up Git LFS for binary assets, handle unmergeable scene and prefab conflicts, and know when Perforce beats Git.
+  Set up Git LFS for binary assets, handle unmergeable scene and prefab conflicts, and know when
+  Perforce beats Git. Use when configuring Perforce, Git LFS, or binary asset branching.
 ---
 # Game Version Control
 

@@ -1,7 +1,9 @@
 ---
 name: production-planning
+group: Plan
 description: >-
-  Plan the build: vertical slice, milestones, scope cuts, and what actually ships in the first playable.
+  Plan the build: vertical slice, milestones, scope cuts, and what actually ships in the first
+  playable. Use when planning milestones, scoping features, or building roadmaps.
 ---
 # Production Planning
 

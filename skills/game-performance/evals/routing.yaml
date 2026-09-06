@@ -1,7 +1,16 @@
 should_fire:
-  - "help with game performance"
-  - "hit frame budget"
-  - "run game-performance workflow"
+  - 'profile frame rate drops and find why our game dips from 60 FPS to 24 FPS'
+  - 'identify whether our game is CPU-bound or GPU-bound using Unreal Insights or Unity Profiler'
+  - 'reduce excessive draw calls and batch dynamic game objects efficiently'
+  - 'optimize garbage collection allocations to eliminate micro-stutters during combat'
+  - 'analyze GPU trace captures in RenderDoc to identify expensive render passes'
+  - 'optimize game physics simulation and collision broadphase performance'
+  - 'track down a memory leak that causes the game to crash after 2 hours of play'
+  - 'profile shader execution times and texture bandwidth bottlenecks on consoles'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'audit website Core Web Vitals and frontend bundle sizes'
+    expect: 'performance-audit'
+  - prompt: 'run k6 stress tests against web API servers'
+    expect: 'load-testing'
+  - prompt: 'build automated CI build pipelines for game binaries'
+    expect: 'game-build-pipeline'

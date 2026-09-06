@@ -1,7 +1,9 @@
 ---
 name: anti-cheat
+group: Engineering
 description: >-
-  Enforce server authority, validate client input, and defend against speed hacks, memory editing, packet replay and economy exploits.
+  Enforce server authority, validate inputs, and defend against speed hacks, memory editing, and
+  exploits. Use when defending games against exploits or hacks.
 ---
 # Anti Cheat
 

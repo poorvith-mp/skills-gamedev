@@ -1,7 +1,16 @@
 should_fire:
-  - "help with unity tooling"
-  - "build editor tooling"
-  - "run unity-tooling workflow"
+  - 'write a custom Unity EditorWindow for painting modular props in scenes'
+  - 'create custom Inspector GUI using UI Toolkit to streamline designer workflows'
+  - 'implement custom scene Gizmos to visualize enemy patrol paths and sight cones'
+  - 'build a batch asset renaming and validation tool for the Unity Editor'
+  - 'create an automated build menu command with pre-build validation checks'
+  - 'write an Editor script to automatically assign Addressable asset labels'
+  - 'build a custom node-based dialogue editor window in Unity'
+  - 'create an in-editor tool to preview and tweak balance curves in real time'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'architect core runtime gameplay systems in Unity'
+    expect: 'unity-architecture'
+  - prompt: 'write Python export add-ons for Blender'
+    expect: 'blender-tooling'
+  - prompt: 'build automated CI/CD pipelines for Unity builds'
+    expect: 'game-build-pipeline'

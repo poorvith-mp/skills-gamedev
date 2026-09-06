@@ -1,7 +1,16 @@
 should_fire:
-  - "help with anti cheat"
-  - "enforce server authority, validate client input, and defend against speed hacks, memory editing, packet replay and economy exploits."
-  - "run anti-cheat workflow"
+  - 'enforce server authority over player movement and actions to prevent teleport hacks'
+  - 'defend against client memory editing (Cheat Engine) with encrypted runtime variables'
+  - 'validate all client combat inputs and cooldowns on the dedicated server'
+  - 'integrate commercial anti-cheat solutions like Easy Anti-Cheat or BattlEye'
+  - 'detect packet replay, message tampering, and network injection attacks'
+  - 'protect in-game currencies and inventory against duplication exploits'
+  - 'implement server-side speed hack and fly hack heuristic anomaly detection'
+  - 'obfuscate critical client game binaries and defend against DLL injection'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'audit web application code for OWASP Top 10 vulnerabilities'
+    expect: 'security-review'
+  - prompt: 'implement OAuth2 authentication and session tokens'
+    expect: 'authentication'
+  - prompt: 'conduct network penetration testing on cloud web servers'
+    expect: 'pen-test'

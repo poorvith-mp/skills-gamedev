@@ -1,7 +1,16 @@
 should_fire:
-  - "help with game build pipeline"
-  - "automate platform builds, asset cooking, console certification prep, and steam or itch.io depot publishing."
-  - "run game-build-pipeline workflow"
+  - 'automate game packaging and asset cooking for Windows, PlayStation, and Xbox'
+  - 'set up a CI/CD build farm for Unity or Unreal builds using Jenkins or GitHub Actions'
+  - 'automate build uploads to Steamworks using steamcmd and build scripts'
+  - 'implement incremental asset cooking to reduce daily build times from 4 hours to 30 minutes'
+  - 'generate dedicated server binaries and headless client builds automatically'
+  - 'manage version numbering, build metadata, and symbol storage for crash reporting'
+  - 'automate package deployment to internal playtesters via itch.io Butler or Discord'
+  - 'handle code signing and notarization for macOS and Windows game executables'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'set up web application CI/CD pipelines in GitHub Actions'
+    expect: 'ci-pipelines'
+  - prompt: 'manage game asset version control with Perforce or Git LFS'
+    expect: 'game-version-control'
+  - prompt: 'deploy web servers to cloud platforms'
+    expect: 'deployment'

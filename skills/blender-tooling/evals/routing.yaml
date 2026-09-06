@@ -1,7 +1,16 @@
 should_fire:
-  - "help with blender tooling"
-  - "build blender python add-ons, asset validators, exporters and pipeline automation."
-  - "run blender-tooling workflow"
+  - 'write a Python add-on for Blender to automate custom FBX export settings'
+  - 'script automated batch UV unwrapping and packing across 50 models'
+  - 'create a Blender script to auto-generate collision meshes with UCX prefixes'
+  - 'automate texture assignment and material creation using Blender''s Python API'
+  - 'build a custom tool to check and fix non-manifold geometry and flipped normals'
+  - 'script automated level asset placement based on a coordinate text file'
+  - 'create a custom UI panel in Blender for artist workflow shortcuts'
+  - 'batch process LOD generation across a folder of 3D assets in Blender'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'model 3D hard-surface meshes by hand in Blender'
+    expect: 'blender-modeling'
+  - prompt: 'create editor tool extensions for Unity in C#'
+    expect: 'unity-tooling'
+  - prompt: 'build CI/CD build pipelines for game binaries'
+    expect: 'game-build-pipeline'

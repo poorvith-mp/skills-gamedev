@@ -1,7 +1,16 @@
 should_fire:
-  - "help with production planning"
-  - "plan the build"
-  - "run production-planning workflow"
+  - 'create a realistic production timeline and milestone schedule for our indie game'
+  - 'scope down our game features to ensure we hit our release date without crunch'
+  - 'estimate engineering, art, and audio asset budgets for our vertical slice'
+  - 'build a sprint backlog and task breakdown for our milestone deliverable'
+  - 'identify production risks, dependencies, and bottlenecks across our team'
+  - 'how do we structure our game development phases: prototype, vertical slice, alpha, beta'
+  - 'plan the post-launch live-ops roadmap and content update cadence'
+  - 'allocate team resources across gameplay, art, and technical debt tasks'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'pitch initial high-concept gameplay ideas and themes'
+    expect: 'game-ideation'
+  - prompt: 'design in-game economy, battle passes, and monetization'
+    expect: 'game-monetization'
+  - prompt: 'manage general enterprise software engineering sprints'
+    expect: 'project-planning'

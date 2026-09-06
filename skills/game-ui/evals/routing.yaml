@@ -1,7 +1,16 @@
 should_fire:
-  - "help with game ui"
-  - "design huds, menus and diegetic interfaces with controller navigation and readability at tv distance."
-  - "run game-ui workflow"
+  - 'design an immersive diegetic HUD for a sci-fi survival horror game'
+  - 'create a responsive inventory and equipment screen optimized for controllers'
+  - 'design an intuitive radial weapon wheel for fast combat selection'
+  - 'ensure game UI text and damage numbers remain readable at a 10-foot TV distance'
+  - 'design damage indicators and hit markers that communicate clearly in combat'
+  - 'create menu navigation flow that works seamlessly with both gamepad and mouse'
+  - 'design accessible subtitle options, colorblind modes, and UI scaling settings'
+  - 'structure floating world-space interaction prompts and objective markers'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'design a SaaS web application dashboard interface'
+    expect: 'ui-design'
+  - prompt: 'implement shaders and visual effects for UI elements in Unity'
+    expect: 'unity-shaders'
+  - prompt: 'conduct general user usability interviews'
+    expect: 'ux-research'

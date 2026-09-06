@@ -1,7 +1,16 @@
 should_fire:
-  - "help with unity multiplayer"
-  - "build netcode for gameobjects, relay and lobby, client-server authority and lag compensation."
-  - "run unity-multiplayer workflow"
+  - 'implement multiplayer character movement with Netcode for GameObjects'
+  - 'build client-side prediction and server reconciliation for smooth movement'
+  - 'synchronize player health, inventory, and combat state across clients'
+  - 'handle host migration, lobby matchmaking, and Unity Relay integration'
+  - 'optimize network bandwidth by compressing NetworkVariables and RPC payloads'
+  - 'implement lag compensation and hit validation on the dedicated server'
+  - 'handle player disconnections and reconnection state restoration gracefully'
+  - 'structure network authority between server and clients to prevent cheating'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'implement multiplayer replication in Unreal Engine'
+    expect: 'unreal-multiplayer'
+  - prompt: 'build web WebSocket servers in Node.js for chat'
+    expect: 'realtime-systems'
+  - prompt: 'architect single-player Unity systems using ScriptableObjects'
+    expect: 'unity-architecture'

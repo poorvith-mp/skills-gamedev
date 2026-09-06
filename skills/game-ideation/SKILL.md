@@ -1,7 +1,9 @@
 ---
 name: game-ideation
+group: Plan
 description: >-
-  Generate and pressure-test concepts: core loop, hook, fantasy, and the paper prototype that proves it.
+  Generate and pressure-test concepts: core loop, hook, fantasy, and the paper prototype that
+  proves it. Use when brainstorming game concepts, core loops, or elevator pitches.
 ---
 # Game Ideation
 

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with unity architecture"
-  - "structure unity projects with scriptableobjects, decoupled systems and single-responsibility components."
-  - "run unity-architecture workflow"
+  - 'structure a clean, decoupled Unity architecture using ScriptableObjects'
+  - 'implement the Service Locator or Dependency Injection pattern in Unity'
+  - 'design a modular character controller with decoupled input and movement logic'
+  - 'architect a high-performance gameplay system using Unity DOTS and ECS'
+  - 'manage persistent game state across scene loads without memory leaks'
+  - 'decouple UI views from gameplay logic using MVP or MVVM in Unity'
+  - 'design an event-driven messaging bus for gameplay events in Unity C#'
+  - 'structure game systems to allow rapid prototyping and modular replacement'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write custom Unity Editor inspectors and window tools'
+    expect: 'unity-tooling'
+  - prompt: 'write custom HLSL and Shader Graph shaders in Unity'
+    expect: 'unity-shaders'
+  - prompt: 'implement multiplayer networking with Netcode for GameObjects'
+    expect: 'unity-multiplayer'

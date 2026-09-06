@@ -1,7 +1,9 @@
 ---
 name: game-performance
+group: Engineering
 description: >-
-  Hit frame budget: draw calls, batching, GC spikes, LOD strategy and in-engine profiling.
+  Hit frame budget: draw calls, batching, GC spikes, LOD strategy and in-engine profiling. Use
+  when profiling frame times, draw calls, GPU bottlenecks, or memory.
 ---
 # Game Performance
 

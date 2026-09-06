@@ -1,7 +1,16 @@
 should_fire:
-  - "help with game ideation"
-  - "generate and pressure-test concepts"
-  - "run game-ideation workflow"
+  - 'brainstorm a unique core mechanic for a roguelike deckbuilder'
+  - 'flesh out this high-concept elevator pitch for an indie action RPG'
+  - 'combine two contrasting genres into a fresh and viable game concept'
+  - 'explore gameplay hooks and theme pairings for a cozy management game'
+  - 'define the 30-second core gameplay loop for our mobile puzzle game'
+  - 'evaluate the market viability and player fantasy of this game idea'
+  - 'generate innovative twist mechanics for a traditional tower defense game'
+  - 'draft a one-page game pitch document to evaluate creative direction'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write the complete game design document (GDD) with full systems'
+    expect: 'game-design'
+  - prompt: 'plan production milestones, budget, and sprint schedules'
+    expect: 'production-planning'
+  - prompt: 'design dialogue trees and character backstories'
+    expect: 'narrative-design'

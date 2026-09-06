@@ -1,7 +1,9 @@
 ---
 name: blender-modeling
+group: 3D assets
 description: >-
-  Model, retopologise, UV unwrap and bake game-ready assets with correct scale, pivots and polycount.
+  Model, retopologise, UV unwrap and bake game-ready assets with correct scale, pivots and
+  polycount. Use when creating 3D hard-surface meshes, low-poly props, or UV layouts.
 ---
 # Blender Modeling
 

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with game ai"
-  - "design npc behaviour"
-  - "run game-ai workflow"
+  - 'design a Behavior Tree for squad-based tactical enemy AI'
+  - 'implement a Finite State Machine for boss fight phase transitions'
+  - 'build a perception and stealth awareness system (sight, sound, alert states)'
+  - 'implement Goal-Oriented Action Planning (GOAP) for realistic NPC behaviors'
+  - 'handle dynamic combat positioning, flanking, and cover selection for enemies'
+  - 'design flocking and crowd simulation algorithms for background creatures'
+  - 'tune enemy reaction times and telegraphing animations for fair combat feel'
+  - 'implement navigation mesh (NavMesh) query filters and pathfinding behaviors'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'train or fine-tune machine learning models'
+    expect: 'ml-deployment'
+  - prompt: 'design an autonomous multi-agent software architecture'
+    expect: 'agent-architecture'
+  - prompt: 'design overall combat mechanics and player health formulas'
+    expect: 'game-design'

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with blender animation"
-  - "rig, skin and animate characters and props, and export clean animation sets to an engine."
-  - "run blender-animation workflow"
+  - 'rig a humanoid character in Blender with IK/FK switching controls'
+  - 'paint bone weights smoothly to eliminate mesh tearing around joints'
+  - 'animate a punchy combat attack sequence with strong anticipation and follow-through'
+  - 'create looping walk, run, and sprint cycle animations for a third-person character'
+  - 'animate facial expressions using shape keys and bone driver controls'
+  - 'clean up motion capture (mocap) animation curves and fix foot sliding'
+  - 'set up ragdoll physics constraints and collision hulls for a character rig'
+  - 'export bone hierarchy and animation clips cleanly to Unreal or Unity'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'model 3D low-poly meshes and props in Blender'
+    expect: 'blender-modeling'
+  - prompt: 'write Python scripts to automate batch asset processing'
+    expect: 'blender-tooling'
+  - prompt: 'implement animation state machines and blend trees in Unity'
+    expect: 'unity-architecture'

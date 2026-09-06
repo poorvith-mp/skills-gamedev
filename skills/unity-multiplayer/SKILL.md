@@ -1,7 +1,9 @@
 ---
 name: unity-multiplayer
+group: Unity
 description: >-
   Build Netcode for GameObjects, Relay and Lobby, client-server authority and lag compensation.
+  Use when implementing Netcode for GameObjects, sync, or client prediction.
 ---
 # Unity Multiplayer
 

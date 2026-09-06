@@ -1,7 +1,9 @@
 ---
 name: playtesting
+group: Craft
 description: >-
-  Structure playtest sessions and sort responses into UX friction, difficulty calibration and feature signal.
+  Structure playtest sessions and sort responses into UX friction, difficulty calibration and
+  feature signal. Use when structuring playtest sessions, telemetry, or feedback loops.
 ---
 # Playtesting
 

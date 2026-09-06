@@ -1,7 +1,9 @@
 ---
 name: game-design
+group: Craft
 description: >-
-  Design systems and mechanics: GDD authorship, gameplay loops, economy balancing and player psychology.
+  Design systems and mechanics: GDD authorship, gameplay loops, economy balancing and player
+  psychology. Use when designing gameplay systems, mechanics, balance, or rules.
 ---
 # Game Design
 

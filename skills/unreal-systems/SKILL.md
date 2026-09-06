@@ -1,7 +1,9 @@
 ---
 name: unreal-systems
+group: Unreal
 description: >-
-  Work the C++/Blueprint continuum with Nanite, Lumen and the Gameplay Ability System.
+  Work the C++/Blueprint continuum with Nanite, Lumen and the Gameplay Ability System. Use when
+  developing Unreal Engine gameplay in C++, Blueprints, or GAS.
 ---
 # Unreal Systems
 

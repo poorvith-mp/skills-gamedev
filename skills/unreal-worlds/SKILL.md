@@ -1,7 +1,9 @@
 ---
 name: unreal-worlds
+group: Unreal
 description: >-
   Build open worlds with World Partition, Landscape, procedural foliage, HLOD and level streaming.
+  Use when sculpting landscapes, biomes, or World Partition in Unreal.
 ---
 # Unreal Worlds
 

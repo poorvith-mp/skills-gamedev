@@ -1,7 +1,9 @@
 ---
 name: unity-architecture
+group: Unity
 description: >-
-  Structure Unity projects with ScriptableObjects, decoupled systems and single-responsibility components.
+  Structure Unity projects with ScriptableObjects, decoupled systems and single-responsibility
+  components. Use when structuring Unity projects, ScriptableObjects, or DOTS/ECS.
 ---
 # Unity Architecture
 

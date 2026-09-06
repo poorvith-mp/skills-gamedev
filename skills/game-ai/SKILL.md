@@ -1,7 +1,9 @@
 ---
 name: game-ai
+group: Craft
 description: >-
-  Design NPC behaviour: behaviour trees, state machines, pathfinding, perception and difficulty tuning.
+  Design NPC behaviour: behaviour trees, state machines, pathfinding, perception and difficulty
+  tuning. Use when designing behavior trees, state machines, or enemy AI.
 ---
 # Game AI
 

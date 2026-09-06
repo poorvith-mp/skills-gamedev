@@ -1,7 +1,16 @@
 should_fire:
-  - "help with game monetization"
-  - "design free-to-play economies, battle passes and cosmetic shops with anti-predatory guardrails."
-  - "run game-monetization workflow"
+  - 'design an ethical battle pass progression system that respects player time'
+  - 'structure in-game hard and soft currency sinks to prevent runaway inflation'
+  - 'balance drop rates and pity systems for a gacha character summoning mechanic'
+  - 'design cosmetic microtransaction tiers and store rotation schedules'
+  - 'implement live-ops event reward loops to drive daily and weekly retention'
+  - 'evaluate pricing tiers for in-app purchases (IAPs) across global regions'
+  - 'model virtual economy flow: source, sink, and player inventory accumulation'
+  - 'monetize a free-to-play game without creating pay-to-win player backlash'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'determine SaaS subscription pricing and packaging tiers'
+    expect: 'pricing'
+  - prompt: 'design the core gameplay rules and combat loops'
+    expect: 'game-design'
+  - prompt: 'calculate overall startup customer acquisition costs'
+    expect: 'unit-economics'

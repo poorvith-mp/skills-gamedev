@@ -1,7 +1,9 @@
 ---
 name: game-audio
+group: Art and audio
 description: >-
-  Integrate FMOD and Wwise, build adaptive music systems, spatial audio and audio performance budgets.
+  Integrate FMOD and Wwise, build adaptive music systems, spatial audio and audio performance
+  budgets. Use when designing sound effects, adaptive audio, or FMOD/Wwise setups.
 ---
 # Game Audio
 

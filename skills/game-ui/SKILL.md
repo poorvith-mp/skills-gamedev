@@ -1,7 +1,9 @@
 ---
 name: game-ui
+group: Craft
 description: >-
-  Design HUDs, menus and diegetic interfaces with controller navigation and readability at TV distance.
+  Design HUDs, menus and diegetic interfaces with controller navigation and readability at TV
+  distance. Use when designing HUDs, inventory menus, or controller-first interfaces.
 ---
 # Game UI
 

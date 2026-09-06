@@ -1,7 +1,9 @@
 ---
 name: unity-tooling
+group: Unity
 description: >-
   Build editor tooling: EditorWindows, PropertyDrawers, AssetPostprocessors and ScriptedImporters.
+  Use when writing custom Unity editor windows, inspectors, or gizmos.
 ---
 # Unity Tooling
 
