@@ -1,8 +1,8 @@
 {
   "name": "skills-gamedev",
   "displayName": "Game Dev Skills",
-  "version": "3.0.0",
-  "description": "22 game dev skills. Game development across Unity, Unreal, Godot and Roblox, plus art and audio pipelines.",
+  "version": "4.0.0",
+  "description": "26 game dev skills. Game development across Unity, Unreal, and Blender, plus art and audio pipelines.",
   "author": {
     "name": "Poorvith M P",
     "url": "https://github.com/poorvith-mp"
@@ -14,7 +14,7 @@
     "gamedev",
     "unity",
     "unreal",
-    "godot",
+    "blender",
     "agent-skills"
   ]
 }
