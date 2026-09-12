@@ -1,5 +1,6 @@
 ---
 name: game-ideation
+last_reviewed: 2026-09-06
 group: Plan
 description: >-
   Generate and pressure-test concepts: core loop, hook, fantasy, and the paper prototype that

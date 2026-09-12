@@ -1,5 +1,6 @@
 ---
 name: unity-tooling
+last_reviewed: 2026-09-06
 group: Unity
 description: >-
   Build editor tooling: EditorWindows, PropertyDrawers, AssetPostprocessors and ScriptedImporters.

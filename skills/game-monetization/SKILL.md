@@ -1,5 +1,6 @@
 ---
 name: game-monetization
+last_reviewed: 2026-09-06
 group: Craft
 description: >-
   Design free-to-play economies, battle passes and cosmetic shops with anti-predatory guardrails.

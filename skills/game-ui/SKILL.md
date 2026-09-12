@@ -1,5 +1,6 @@
 ---
 name: game-ui
+last_reviewed: 2026-09-06
 group: Craft
 description: >-
   Design HUDs, menus and diegetic interfaces with controller navigation and readability at TV

@@ -1,5 +1,6 @@
 ---
 name: tech-art
+last_reviewed: 2026-09-06
 group: Art and audio
 description: >-
   Own the art-to-engine pipeline: shaders, VFX, LOD chains and cross-engine asset standards. Use

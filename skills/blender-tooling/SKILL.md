@@ -1,5 +1,6 @@
 ---
 name: blender-tooling
+last_reviewed: 2026-09-06
 group: 3D assets
 description: >-
   Build Blender Python add-ons, asset validators, exporters and pipeline automation. Use when

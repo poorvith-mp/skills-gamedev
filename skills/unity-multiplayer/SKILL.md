@@ -1,5 +1,6 @@
 ---
 name: unity-multiplayer
+last_reviewed: 2026-09-06
 group: Unity
 description: Build Netcode for GameObjects, Relay and Lobby, server authority and lag compensation. For exploit defense, see anti-cheat. Use when implementing Netcode for GameObjects or sync.
 ---

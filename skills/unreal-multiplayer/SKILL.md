@@ -1,5 +1,6 @@
 ---
 name: unreal-multiplayer
+last_reviewed: 2026-09-06
 group: Unreal
 description: >-
   Build Actor replication, GameMode/GameState architecture and server-authoritative gameplay. Use

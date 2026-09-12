@@ -1,5 +1,6 @@
 ---
 name: game-design
+last_reviewed: 2026-09-06
 group: Craft
 description: >-
   Design systems and mechanics: GDD authorship, gameplay loops, economy balancing and player

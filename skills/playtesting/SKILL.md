@@ -1,5 +1,6 @@
 ---
 name: playtesting
+last_reviewed: 2026-09-06
 group: Craft
 description: >-
   Structure playtest sessions and sort responses into UX friction, difficulty calibration and

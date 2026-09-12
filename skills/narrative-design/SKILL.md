@@ -1,5 +1,6 @@
 ---
 name: narrative-design
+last_reviewed: 2026-09-06
 group: Craft
 description: >-
   Design branching dialogue, lore architecture and environmental storytelling aligned to the GDD.

@@ -1,5 +1,6 @@
 ---
 name: level-design
+last_reviewed: 2026-09-06
 group: Craft
 description: >-
   Design layout, pacing, encounter placement and environmental narrative. Use when designing

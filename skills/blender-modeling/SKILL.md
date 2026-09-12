@@ -1,5 +1,6 @@
 ---
 name: blender-modeling
+last_reviewed: 2026-09-06
 group: 3D assets
 description: >-
   Model, retopologise, UV unwrap and bake game-ready assets with correct scale, pivots and

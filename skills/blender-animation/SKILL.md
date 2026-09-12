@@ -1,5 +1,6 @@
 ---
 name: blender-animation
+last_reviewed: 2026-09-06
 group: 3D assets
 description: >-
   Rig, skin and animate characters and props, and export clean animation sets to an engine. Use

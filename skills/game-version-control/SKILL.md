@@ -1,5 +1,6 @@
 ---
 name: game-version-control
+last_reviewed: 2026-09-06
 group: Engineering
 description: >-
   Set up Git LFS for binary assets, handle unmergeable scene and prefab conflicts, and know when

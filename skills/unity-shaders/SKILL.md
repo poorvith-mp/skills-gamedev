@@ -1,5 +1,6 @@
 ---
 name: unity-shaders
+last_reviewed: 2026-09-06
 group: Unity
 description: >-
   Author materials and VFX with Shader Graph, HLSL and URP/HDRP custom passes. Use when authoring

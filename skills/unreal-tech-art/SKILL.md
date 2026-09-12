@@ -1,5 +1,6 @@
 ---
 name: unreal-tech-art
+last_reviewed: 2026-09-06
 group: Unreal
 description: >-
   Own the UE5 visual pipeline: Material Editor, Niagara VFX and Procedural Content Generation. Use

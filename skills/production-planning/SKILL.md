@@ -1,5 +1,6 @@
 ---
 name: production-planning
+last_reviewed: 2026-09-06
 group: Plan
 description: >-
   Plan the build: vertical slice, milestones, scope cuts, and what actually ships in the first

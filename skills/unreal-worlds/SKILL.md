@@ -1,5 +1,6 @@
 ---
 name: unreal-worlds
+last_reviewed: 2026-09-06
 group: Unreal
 description: >-
   Build open worlds with World Partition, Landscape, procedural foliage, HLOD and level streaming.

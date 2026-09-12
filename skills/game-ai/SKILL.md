@@ -1,5 +1,6 @@
 ---
 name: game-ai
+last_reviewed: 2026-09-06
 group: Craft
 description: >-
   Design NPC behaviour: behaviour trees, state machines, pathfinding, perception and difficulty

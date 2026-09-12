@@ -1,5 +1,6 @@
 ---
 name: game-audio
+last_reviewed: 2026-09-06
 group: Art and audio
 description: >-
   Integrate FMOD and Wwise, build adaptive music systems, spatial audio and audio performance

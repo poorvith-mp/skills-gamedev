@@ -1,5 +1,6 @@
 ---
 name: anti-cheat
+last_reviewed: 2026-09-06
 group: Engineering
 description: Enforce server authority and defend against speed hacks, memory editing, and exploits. For networking setup, see unity-multiplayer. Use when defending games against exploits or hacks.
 ---

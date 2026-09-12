@@ -1,5 +1,6 @@
 ---
 name: game-performance
+last_reviewed: 2026-09-06
 group: Engineering
 description: >-
   Hit frame budget: draw calls, batching, GC spikes, LOD strategy and in-engine profiling. Use

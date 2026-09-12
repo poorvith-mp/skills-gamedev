@@ -1,5 +1,6 @@
 ---
 name: game-build-pipeline
+last_reviewed: 2026-09-06
 group: Engineering
 description: >-
   Automate platform builds, asset cooking, console certification prep, and Steam or itch.io depot

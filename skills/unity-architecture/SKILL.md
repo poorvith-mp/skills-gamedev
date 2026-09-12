@@ -1,5 +1,6 @@
 ---
 name: unity-architecture
+last_reviewed: 2026-09-06
 group: Unity
 description: >-
   Structure Unity projects with ScriptableObjects, decoupled systems and single-responsibility
